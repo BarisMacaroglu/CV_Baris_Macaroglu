@@ -1,0 +1,62 @@
+#navbar {
+    flex-direction: column;    
+    overflow: hidden;
+    padding-top: 0.5rem;
+    padding-bottom: 0.7rem;
+    height: 85px;
+}
+
+#skills .items {
+    flex-direction: column;
+}
+
+#skills .items .item {
+    padding: 1.5rem;
+    width: 100%;
+}
+
+#profil .frames .frame {
+    flex-direction: column;
+    align-items: center;
+}
+
+#profil .frames .frame .profil-image {
+    padding-bottom: 0.5rem;
+    margin-top: 0;
+    margin-right: 0;
+}
+
+#contact {
+    flex-direction: column;
+}
+
+.contact-info {
+    width: 100%;
+    margin-bottom: 6rem;
+}
+
+.contact-form {
+    width: 100%;
+}
+
+.profil-info {
+    width: 100%;
+}
+
+.profil-info .title {
+    margin-top: 0;
+    font-size: 2rem;
+}
+
+.profil-info .description {
+    text-align: center;
+}
+
+.profil-info .exp {
+    margin-top: 1rem;
+}
+
+.info .linkler ul li {
+    margin-left: 1rem;
+    width: 100%;
+}

@@ -1,0 +1,7 @@
+#courses .courses .course {
+    flex-direction: column;
+}
+
+#courses .courses .course .course-image {
+    padding-bottom: 0.5rem;
+}

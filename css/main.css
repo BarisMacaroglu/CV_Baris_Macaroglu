@@ -1,0 +1,251 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none; 
+    color: #fff;  
+}
+
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+}
+
+span {
+    background-color: red;
+    color: white;
+    padding: 0.15rem;
+    border-radius: 4px;
+    position: absolute;
+    transform: rotate(-20deg);
+}
+
+#navbar {
+    color: white;
+    display: flex;   
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 100px;
+
+}
+
+#navbar ul {
+    list-style-type: none;
+    display: flex; 
+    align-items: center;
+
+}
+
+#navbar ul li a {
+    padding: 0.8rem;
+}
+
+#navbar ul li a:hover {
+    background-color: #336ea2;
+    border-radius: 10px;
+}
+
+
+#skills {
+    color: #fff;
+    padding: 2rem;
+}
+
+#skills .items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#skills .items .item { 
+    width: 33%;
+    text-align: center; 
+    padding: 3rem;
+}
+
+#skills .items .item:hover {
+    background-color: #336ea2;
+    color: white;
+    border-radius: 10px;
+}
+
+#skills .items .item ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+
+#langues, th, tr, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 0.3rem;
+    width: 100%;
+}
+
+th {
+    background-color: tomato;
+}
+
+
+.profil-image {
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+
+
+.profil-image img {
+    border-radius: 10px;
+}
+
+
+.info .title {
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+    font-size: 1.2rem;
+}
+
+.info .description {
+    letter-spacing: 1px;
+    margin-bottom: 0.75rem;
+}
+
+.info .exp {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+}
+
+.info .linkler ul li {
+    margin-left: 3rem;
+    color: cornflowerblue;
+    margin-top: 2rem;
+}
+
+
+/* Contact Form */
+
+#deneme {
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+#contact {
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contact-info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+#contact ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+    font-size: 2rem;
+    justify-content: center;
+    letter-spacing: 1.5rem;
+}
+
+#contact ul li:hover {
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+#profil {
+    color: #333;
+    padding: 2rem;
+}
+
+#experience {
+    color: #333;
+    padding: 2rem;
+}
+
+#formation {
+    color: #333;
+    padding: 2rem;
+}
+
+.frames {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.frame {
+    display: flex;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    position: static;
+    justify-content: space-between;
+}
+
+.profil-info {
+    width: 50%;
+}
+
+.profil-info .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    text-align: center;
+    color: #336ea2;
+}
+
+.profil-info .description {
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    text-align: right;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: midnightblue;
+    font-style: italic;
+}
+
+.profil-info .exp {
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin-top: 3rem;
+    margin-bottom: 0.75rem;
+    letter-spacing: 1.5px;
+}
+
