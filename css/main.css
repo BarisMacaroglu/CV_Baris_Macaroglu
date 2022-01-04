@@ -126,6 +126,18 @@ th {
     margin-bottom: 0.75rem;
 }
 
+.info .principal_activity {
+    margin-left: 18px;
+}
+
+.principal_activity ul li a {
+    color: #336ea2;
+}
+
+.principal_activity ul li a:hover {
+    text-decoration: underline;
+}
+
 .info .linkler ul li {
     margin-left: 3rem;
     color: cornflowerblue;
